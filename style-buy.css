@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background-color: #03036A;
+	background-size: auto;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: center center;
+	margin: 0;
+	padding: 0;
+}
+.Header li a{
+ float: left;
+ font-size: 20px; 
+ width: 120px; 
+ position: relative;
+ left: 40px;
+ cursor: pointer;
+ text-decoration: none;
+ color: white;
+ top: 30px;
+ text-transform: uppercase;
+}
+nav{
+	background-color: black;
+	height: 80px;
+}
+section{
+	background-color: #010A23;
+	height: 1200%;
+	width: 1150px;
+	position: relative;
+	top: 330px;
+	left: 0px;
+	margin: auto;
+	width: 90%;
+	overflow: hidden;
+	height: auto;
+}
+footer{
+	height: 120px;
+	background-color: black;
+	position: relative;
+	top: 770px;
+}
+.button{
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background: #463FD1;
+	position: relative;
+	top: 180px;
+	left: 330px;
+	width: 550px;
+	height: 70px;
+	font-size: 24px;
+	cursor: pointer;
+}
+.button:hover{
+	background-color: #46BE07;
+	cursor: pointer;
+}
+#check{
+	display: none;
+}
+@media (max-width: 858px){
+	.checkbtn{
+		display: none;
+	}
+}
+@media (max-width: 858px){
+	.Header ul h3 a{
+		display: block;
+	}
+	#check {
+	position: absolute;
+	top: 0px;
+	font-size: 35px;
+	color: white;
+	cursor: pointer;
+	display: none;
+	}
+     nav ul li{
+		position: relative;
+		width: 4456;
+		height: 93px;
+		background: black;
+		background-size: cover;
+		top: px;
+		left: 0;
+		text-align: center;
+		display: block;
+		transition: all .5s;
+	}
+	.Header li a{
+		position: relative;
+		left: 160px;
+	}
+	#check:checked ~ ul{
+		left: 0;
+	}
+}
+.test{
+	height: 300px;
+	color: #010A23;
+}
+.button2{
+	border-color: white;
+	background: black;
+	position: absolute;
+	left: 140px;
+	top: 120px;
+	color: white;
+	border-style: solid;
+	width: 300px;
+	height: 70px;
+	font-size: 20px;
+	transition: .5s;
+}
+.button2:hover{
+	background-color: blue;
+	cursor: pointer;
+	width: 320px;
+	height: 90px;
+	top: 110px;
+	left: 130px;
+}
+.button3{
+	border-color: white;
+	background: black;
+	position: absolute;
+	left: 600px;
+	top: 120px;
+	color: white;
+	border-style: solid;
+	width: 300px;
+	height: 70px;
+	font-size: 20px;
+	transition: .5s;
+}
+.button3:hover{
+	background-color: blue;
+	cursor: pointer;
+	width: 320px;
+	height: 90px;
+	top: 110px;
+	left: 590px;
+}
+@media (max-width: 858px){
+	.button2{
+		width: 140px;
+		top: 40px;
+		left: 120px;
+		
+	}
+	.button2:hover{
+		width: 150px;
+		top: 30px;
+		left: 115px;
+	}
+	.button3{
+		width: 140px;
+		top: 180px;
+		left: 120px;
+	}
+	.button3:hover{
+		width: 150px;
+		top: 170px;
+		left: 115px;
+	}
+}
